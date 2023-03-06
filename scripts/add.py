@@ -7,7 +7,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 # default sport Cricket will be added incase user does not provide fav sport
 
 
-def load_json():
+def load_json():                                                                                     
     with open('../response.json') as json_obj:
         response = json.load(json_obj)
     return response
